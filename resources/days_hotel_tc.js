@@ -1,4 +1,3 @@
-
 Test1.daysHotel = SC.Page.design({
  
 tc: SC.MainPane.design({
