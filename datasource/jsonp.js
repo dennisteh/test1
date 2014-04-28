@@ -1,5 +1,5 @@
 sc_require('models/models.js');
-Test1.store.loadRecords('Test1.hotel_choice', [
+Test1.store.loadRecords(Test1.hotel_choice, [
 
             {
                 "hotel": 4, 
