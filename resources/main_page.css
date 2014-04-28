@@ -1,0 +1,983 @@
+
+@media (min-width:320px)  
+{  /*hotel selection menu page*/
+	.background-view {
+        width:320px;//width:100% after tested
+        height: 100%;
+        float:center;
+        background:#383838;
+	margin-top:58px;
+        }
+
+	.header-view{
+        width:320px;//width:100%
+        height:57px;  
+        background:url(http://hotelweb.atlife.my/images/gvlogo_trans.png) black no-repeat top center ; 
+	background-size:180px 50px;
+	}
+
+	.days-hotel-view{
+	height:60px;
+	background-color:#282828;
+	margin-top:0px;
+	z-index: 9999;
+	font-size-adjust: 0.8;
+	color:white;
+	font-weight:bold;
+	}
+
+	.regis-hotel-view{
+	height:60px;
+	background-color:#282828;
+	margin-top:61px;
+	z-index: 9999;
+	font-size-adjust: 0.8;
+	color:white;
+	font-weight:bold;
+	}
+
+	.royal-hotel-view{
+	height:46px;
+	background-color:#282828;
+	margin-top:123px;
+	z-index: 9999;
+	font-size-adjust: 0.8;
+	color:white;
+	font-weight:bold;
+	}
+
+	.other-hotel-view{
+	height:430px;
+	background-color:#282828;
+	margin-top:215px;
+	z-index: 9999;
+	}
+
+	/**daysHotel (tersm & conditions page) **/
+	.daysHotel-header-view{
+	width:320px;//width:100%
+        height:48px;  
+        background:static_url('/images/days_hotel_logo.png')black no-repeat top center; 
+	background-size:320px 46px;
+	}
+
+	.hotels-background-view{
+	width:320px;//width:100% after tested
+	height:488px;
+	float:center;
+	background:black;
+	//height:2900px; //can up/down arrow keys
+	//overflow-y:scroll;
+	}
+
+	.scroll-background-view{
+	display:block;
+	height:2820;
+	//width:330;
+	}
+
+	.privacy-label-view{
+	background-color:#383838;
+	margin-top:48px;
+	height:40px;
+	}
+
+	.tc-label-view{
+	text-align:center;
+	color:red;
+	font-weight:bold;
+	font-size-adjust:0.85;
+	margin-top:10px;
+	float:center;
+	}
+
+	.hotels-container-view{
+	background-color:#484848;
+	height:100%;
+	margin-top:90px;
+	}
+
+	.hotels-container-tc-view{
+	margin:10px auto 10px auto;
+	width:280px;
+	color:white;
+	}
+
+	.agreeBtn-label-view-fixed{
+	background-color:#282828;height:50px;width:320px;
+	margin-top:440px;
+	position:fixed;
+	z-index:9999;
+	}
+
+	.agreeBtn-view{
+	cursor:pointer;
+	font-family:HelveticaNeue,sans-serif;
+	font-size-adjust:0.6;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin:1 auto;
+	/*oval shape (button) */
+	width: 320px; 
+	height: 35px; 
+	background: #585858; 
+	-moz-border-radius: 80px / 100px; 
+	-webkit-border-radius: 80px / 100px; 
+	border-radius: 80px / 100px; margin-top:9px;
+	}
+
+	.agreeBtn-view:hover{
+	background-color:#787878;
+	}
+	/**dayshotel (splash_screen)**/
+	.days-splash-screen-view{
+	width:320px;//width:100%
+	height:100%;
+	//background:static_url('/images/Sg_hotelSplash_screens/splash_screen_days_hotel@2x.png')no-repeat; 
+	//background-size:320px 500px;
+	margin-top:48px;
+	}	
+	
+	/**daysHotel (home page) **/
+	.hotels-shared-background-view{
+	background-color:#383838;
+	height:100%;//height:488px;
+	width:320px;//or 100%
+	box-shadow:0px 0px 0px 1px white;
+	z-index:99;
+	}
+
+	.menubtn1{
+	background:static_url('/images/menu_btn1.png')no-repeat ;
+	width:30px;
+	margin:8px 0px 5px 285px;
+	}
+
+	.category-view-adjust{
+	width:155px;
+	height:70px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	line-height:105px;
+	z-index: 99;
+	box-shadow: 0px 0px 0px 3px black;
+	}
+
+	.left-category-hungry-view{
+	margin-top:48px;
+	margin-left:2px;
+	font-size-adjust:1.2;
+	background:static_url('images/Categories_images/im_hungry.png')no-repeat center ;
+	background-size:165px 70px;
+	}
+
+
+	.right-category-thirsty-view{
+	margin-top:48px;
+	margin-left:163px;
+	font-size-adjust:1.2;
+	background:static_url('images/Categories_images/thirsty.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.left-category-shopping-view{
+	margin-top:123px;
+	margin-left:2px;
+	font-size-adjust:0.8;
+	background:static_url('images/Categories_images/shopping.png')no-repeat center;
+	background-size:165px 80px;
+	}
+
+	.right-category-kid-view{
+	margin-top:123px;
+	margin-left:163px;
+	font-size-adjust:1.2;
+	background:static_url('images/Categories_images/kids_stuff.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.left-category-entertainment-view{
+	margin-top:198px;
+	margin-left:2px;
+	font-size-adjust:0.8;
+	background:static_url('images/Categories_images/entertain_me.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.right-category-action-view{
+	margin-top:198px;
+	margin-left:163px;
+	font-size-adjust:0.8;
+	background:static_url('images/Categories_images/give_me_action.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.left-category-fun-view{
+	margin-top:273px;
+	margin-left:2px;
+	font-size-adjust:0.8;
+	background:static_url('images/Categories_images/fun_at_dark.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.right-category-explore-view{
+	margin-top:273px;
+	margin-left:163px;
+	font-size-adjust:0.8;
+	background:static_url('images/Categories_images/lets_explore.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.left-category-latest-view{
+	margin-top:348px;
+	margin-left:2px;
+	font-size-adjust:0.8;
+	background:static_url('images/Categories_images/happenings.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.right-category-privilege-view{
+	margin-top:348px;
+	margin-left:163px;
+	font-size-adjust:0.8;
+	background:static_url('images/Categories_images/privilage.png')no-repeat center;
+	background-size:165px 70px;
+	}
+
+	.logo-background{
+	background-color:#484848;
+	margin-top:auto;
+	margin-left:3px;
+	width:77px;
+	height:40px;
+	z-index:99;
+	}
+
+	.logo-adjust{
+	width:77px;
+	height:25px;
+	cursor:pointer;
+	}
+
+	.label-adjust{
+	margin-top:20px;
+	width:77px;
+	height:25px;
+	text-align:center;
+	font-size-adjust:0.4;
+	cursor:pointer;
+	}
+
+	.label-unhighlight{
+	color:white;
+	}
+
+	.label-highlight{
+	color:#33FFFF;
+	}
+
+	.logo-background:hover{
+	background-color:#686868;
+	}
+
+	.home-logo-background{
+	margin-left:3px;
+	}
+
+	.home-logo-unhighlight{
+	background:static_url('images/small_logo/home_icon.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+
+	.home-logo-highlight{
+	background:static_url('images/small_logo/home_icon_highlight.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+
+	.getting-around-background{
+	margin-left:82px;
+	}
+
+	.getting-around-logo-highlight{
+	background:static_url('images/small_logo/going_around_highlight.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+	
+	.getting-around-logo-unhighlight{
+	background:static_url('images/small_logo/getting_around.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+
+	.information-logo-background{
+	margin-left:160px;
+	}
+
+	.information-logo-unhighlight{
+	background:static_url('images/small_logo/info_icon.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+
+	.information-logo-highlight{
+	background:static_url('images/small_logo/info_icon_highlight.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+
+	.bookmark-logo-background{
+	margin-left:239px;
+	}
+
+	.bookmark-logo-unhighlight{
+	background:static_url('images/small_logo/bookmark_icon.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+
+	.bookmark-logo-highlight{
+	background:static_url('images/small_logo/bookmark_icon_highlight.png')no-repeat center center;
+	background-size:17px 17px;
+	}
+	
+	/*DaysHotel --> Category*/
+	.backspace-background{
+	width:18px;
+	margin-left:5px;
+	margin-top:9px;
+	margin-bottom:9px;
+	z-index:99;
+	}
+
+	.backspace-view{
+	background:static_url('/images/small_logo/back_btn1.png')no-repeat;
+	margin-left:-10px;
+	}
+
+	.category-label-view{
+	margin-top:47px;
+	width:320px;
+	height:20px;
+	background-color:white;
+	color:red;
+	font-size-adjust:0.7;
+	font-weight:bold;
+	z-index:99;
+	}
+
+	.category-container-background-view{
+	background:#282828;
+	margin-top:68px;
+	width:320px;
+	height:120px;
+	}
+
+	.category-logo-view{
+	height:75px;
+	width:130px;
+	margin-left:15px;
+	margin-top:2px;
+	z-index:99;
+	}
+
+	.category-logo-view-pic{
+	margin-left:-12px;
+	background:static_url('images/Categories_images/dallas_logo.png')no-repeat;
+	background-size:150px 80px;
+	}
+
+	.category-logo-label-view{
+	color:white;
+	margin-top:80px;
+	margin-left:25px;
+	width:100px;
+	height:15px;
+	z-index:99;
+	}
+	
+	/*daysHotel -->category_thirsty_days */
+	.category-shared-company-show{
+	margin-top:70px;
+	background-color:#303030;
+	width:320px;
+	height:60px;	
+	z-index:99;
+	}
+
+	.inner-category-shared-company-show{
+	width:250px;
+	height:37px;
+	margin-left:23px;
+	margin-top:10px;
+	z-index:99;
+	}
+
+	.category-shared-company-show-other{
+	background-color:#303030;
+	width:320px;
+	height:100px;
+	margin-top:132px;
+	z-index:99;
+	}
+
+	.category-font-adjust{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	font-size-adjust:0.7;
+	z-index:99;
+	}
+
+	/*daysHotel -->outlet_detail_page */
+	.information-view-label{
+	//background-color:#303030;
+	background-color:#75ACC8;
+	margin-top:49px;
+	margin-left:2px;
+	width:158px;
+	height:35px;
+	color:white;
+	font-weight:bold;
+	font-size-adjust:0.65;
+	text-align:center;
+	line-height:30px;
+	z-index:99;
+	box-shadow: 1px 1px 1px 1px black;
+	cursor:pointer;
+	}
+
+	.map-view-label{
+	background-color:#303030;
+	margin-top:49px;
+	margin-left:162px;
+	width:158px;
+	height:35px;
+	color:white;
+	font-weight:bold;
+	font-size-adjust:0.65;
+	text-align:center;
+	line-height:30px;
+	z-index:99;
+	box-shadow: 1px 1px 1px 1px black;
+	cursor:pointer;
+
+	}
+
+	.map-view-label:hover{
+	background-color:#404040;
+	}
+
+	.title-view{
+	background-color:#303030;
+	margin-top:86px;
+	width:320px;
+	height:35px;
+	color:red;
+	font-weight:bold;
+	font-size-adjust:0.8;
+	text-align:center;
+	line-height:35px;
+	box-shadow: 0px 0px 0px 1px black;
+	z-index:99;
+	}
+
+	.images-view{
+	margin-top:125px;
+	background:static_url('images/Categories_images/dallas_logo.png')no-repeat;
+	background-size:58px 60px;
+	width:70px;
+	height:70px;
+	margin-left:10px;
+	z-index:99;
+	}
+
+	.distance-view{
+	margin-top:124px;
+	text-align:right;
+	color:white;
+	width:280px;
+	height:20px;
+	font-size-adjust:0.4;
+	z-index:99;
+	}
+
+	.address-view{
+	margin-top:135px;
+	margin-left:78px;
+	color:white;
+	width:150px;
+	height:50px;
+	font-size-adjust:0.65;
+	z-index:99;
+	}
+
+	.details-view{
+	width:290px;
+	height:85px;
+	margin-left:15px;
+	margin-top:190px;
+	color:white;
+	font-size-adjust:0.57;
+	z-index:99;
+	}
+
+	.outlet-selection-view-adjust{
+	background-color:#404040;
+	width:157px;
+	height:35px;
+	color:white;
+	font-weight:bold;
+	font-size-adjust:0.50;
+	text-align:center;
+	line-height:30px;
+	z-index:99;
+	box-shadow: 1px 1px 1px 1px black;
+	cursor:pointer;
+	}
+
+	.Promotion-view{
+	margin-left:2px;
+	margin-top:277px;
+	}
+
+	.Promotion-view:hover{
+	background-color:#505050;
+	}
+
+	._360-view{
+	margin-top:277px;
+	margin-left:161px;
+	}
+
+	._360-view:hover{
+	background-color:#505050;
+	}
+
+	.Checkin-view{
+	margin-top:314px;
+	margin-left:2px;
+	}
+
+	.Checkin-view:hover{
+	background-color:#505050;
+	}
+
+	.Bookmark-view{
+	margin-top:314px;
+	margin-left:161px;
+	}
+
+	.Bookmark-view:hover{
+	background-color:#505050;
+	}
+
+	.Share-view{
+	margin-top:351px;
+	margin-left:2px;
+	}
+
+	.Share-view:hover{
+	background-color:#505050;
+	}
+
+	.Review-view{
+	margin-top:351px;
+	margin-left:161px;
+	}
+
+	.Review-view:hover{
+	background-color:#505050;
+	}
+
+	/*daysHotel -->mappage_days */
+	.information-view-label-other{
+	background-color:#303030;
+	margin-top:49px;
+	margin-left:2px;
+	width:158px;
+	height:35px;
+	color:white;
+	font-weight:bold;
+	font-size-adjust:0.65;
+	text-align:center;
+	line-height:30px;
+	z-index:99;
+	box-shadow: 1px 1px 1px 1px black;
+	cursor:pointer;
+	}
+
+	.map-view-label-other{
+	background-color:#75ACC8;
+	margin-top:49px;
+	margin-left:162px;
+	width:158px;
+	height:35px;
+	color:white;
+	font-weight:bold;
+	font-size-adjust:0.65;
+	text-align:center;
+	line-height:30px;
+	z-index:99;
+	box-shadow: 1px 1px 1px 1px black;
+	cursor:pointer;
+	}
+
+	.information-view-label-other:hover{
+	background-color:#404040;
+	}
+
+/*daysHotel -->days_promotion */
+.promotion-company-view{
+background-color:#303030;
+width:320px;
+height:300px;
+margin-top:122px;
+background:sc_static('images/Categories_images/dallas_restaurant.png') no-repeat;
+background-size:320px 160px;
+z-index:99;
+}
+
+.promotion-discount-view{
+background-color:#303030;
+width:320px;
+height:50px;
+color:white;
+margin-top:285px;
+line-height:40px;
+z-index:99;
+}
+
+/* dayshotel --> share_dialog.js */
+.share-dialog-transparent-view{
+background-color:transparent;
+//background-color:yellow;
+width:320px;
+height:100%;
+z-index:99;
+}
+
+.share-dialog-header{
+color:white;
+font-size-adjust:0.8;
+font-weight:bold;
+text-align:center;
+line-height:40px;
+margin-left:10px;
+margin-top:200px;
+width: 280px;
+height: 50px;
+background-color: #101010;
+-moz-border-radius: 50px / 150px;
+-webkit-border-radius:50px / 150px;
+border-radius: 50px / 150px;
+box-shadow: 0px 0px 0px 1px black;
+}
+
+.share-dialog-container-background{
+background-color: #202020;
+margin-top:235px;
+margin-left:10px;
+width:280px;
+height:200px;
+box-shadow: 0px 0px 0px 1px black;
+}
+
+.share-dialog-message{
+margin-left:30px;
+width:223px;
+height:40px;
+color:white;
+font-size-adjust:0.8;
+line-height:30px;
+}
+
+.share-dialog-selection{
+width:243px;
+height:90px;
+margin-top:42px;
+margin-left:30px;
+}
+
+.share-dialog-fb{
+color:white;
+font-size-adjust:0.7;
+font-weight:bold;
+text-align:center;
+line-height:30px;
+margin-top:5px;
+margin-left:5px;
+width: 200px; 
+height: 35px; 
+-moz-border-radius: 50px / 100px; 
+-webkit-border-radius: 50px / 100px; 
+border-radius: 50px / 100px; 
+box-shadow: 0px 0px 0px 1px white;
+}
+
+.share-dialog-twi{
+color:white;
+font-size-adjust:0.7;
+font-weight:bold;
+text-align:center;
+line-height:30px;
+margin-top:45px;
+margin-left:5px;
+width: 200px; 
+height: 35px; 
+-moz-border-radius: 50px / 100px; 
+-webkit-border-radius: 50px / 100px; 
+border-radius: 50px / 100px; 
+box-shadow: 0px 0px 0px 1px white;
+}
+
+.share-dialog-close{
+background-color:grey;
+color:white;
+font-size-adjust:0.8;
+font-weight:bold;
+text-align:center;
+line-height:30px;
+margin-top:142px;
+margin-left:35px;
+width: 200px; 
+height: 35px; 
+-moz-border-radius: 80px / 100px; 
+-webkit-border-radius: 80px / 100px; 
+border-radius: 80px / 100px; 
+box-shadow: 0px 0px 0px 1px black;
+}
+
+/*daysHotel -->feedback_days.js */
+.feedback-font-adjust{
+color:white;
+font-size-adjust:0.7;
+width:280px;
+height:35px;
+}
+
+.feedback-textfield-pattern{
+background-color:black;
+margin-left:78px;
+margin-top:2px;
+width: 200px; 
+height: 32px;z-index:99;
+-moz-border-radius: 20px / 100px; 
+-webkit-border-radius: 20px / 100px; 
+border-radius: 20px / 100px; 
+box-shadow: 0px 0px 0px 1px white;
+}
+
+.feedback-container-background-adjust{
+width:280px;
+height:400px;
+z-index:99;
+margin-top:75px;
+margin-left:20px;
+}
+
+.feedback-lblName{
+margin-top:0px;
+}
+
+.feedback-lblContact{
+margin-top:50px;
+}
+
+.feedback-lblEmail{
+margin-top:100px;
+}
+
+.feedback-lblReview{
+margin-top:150px;
+}
+
+.feedback-lblRating{
+color:white;
+font-size-adjust:0.7;
+width:280px;
+height:100px;
+margin-top:200px;
+}
+
+.feedback-rating-star{
+margin-top:20px;
+margin-left:47px;
+width:250px;
+height:35px;
+}
+
+.feedback-star2-adjust{
+margin-left:35px;
+}
+
+.feedback-star3-adjust{
+margin-left:70px;
+}
+
+.feedback-star4-adjust{
+margin-left:105px;
+}
+
+.feedback-star5-adjust{
+margin-left:140px;
+}
+
+.feedback-button-adjust{
+background-color:#404040;
+margin-top:285px;
+width: 120px; 
+height: 38px;
+line-height:42px;
+text-align:center;
+cursor:pointer;
+z-index:99;
+-moz-border-radius: 40px / 100px; 
+-webkit-border-radius: 40px / 100px; 
+border-radius: 40px / 100px; 
+box-shadow: 0px 0px 0px 1px black;
+color:white;
+font-size-adjust:0.7;
+font-weight:bold;
+}
+
+.feedback-submit{
+margin-left:10px;
+}
+
+.feedback-submit:hover{
+background-color:#484848;
+}
+
+.feedback-reset{
+margin-left:150px;
+}
+
+.feedback-reset:hover{
+background-color:#484848;
+}
+
+/* dayshotel getting-around */
+.getting-around-border-adjust{
+box-shadow:0px 0px 0px 1px white;
+width:320px;
+height:100px;
+z-index:99;
+}
+
+.getting-around-train-view{
+margin-top:50px;
+width:320px;
+height:100px;
+background:static_url('images/transport/train01.png')no-repeat;
+background-size:320px 100px;
+z-index:99;
+}
+
+.getting-around-bus-view{
+margin-top:153px;
+background:static_url('images/transport/bus01.png')no-repeat;
+background-size:320px 100px;
+}
+
+.getting-around-taxi-view{
+margin-top:254px;
+background:static_url('images/transport/taxi01.png')no-repeat;
+background-size:320px 100px;
+}
+
+.getting-around-walking-view{
+margin-top:355px;
+background:static_url('images/transport/walking01.png')no-repeat;
+background-size:320px 100px;
+}
+
+/* daysHotel train */
+.transport-title-view{
+background-color:#303030;
+	margin-top:48px;
+	width:320px;
+	height:35px;
+	color:red;
+	font-weight:bold;
+	font-size-adjust:0.8;
+	text-align:center;
+	line-height:35px;
+	box-shadow: 0px 0px 0px 1px black;
+	z-index:99;
+}
+
+.train-image-view{
+background:sc_static('images/transport/mrt_map.png')no-repeat;
+background-size:320px 185px;
+margin-top:86px;
+z-index:99;
+}
+
+.transport-details-view{
+background-color:yellow;
+width:310px;
+height:200px;
+margin-top:300px;
+z-index:99;
+}
+
+.transport-details-adjust{
+background-color:green;
+width:500px;
+//height:100px;
+z-index:99;
+}
+
+/*daysHotel -->topright_clickbtn */
+.topright-btn-container-background{
+width:320px;
+height:100%;
+background-color:#383838;
+}
+
+.topright-btn-transparent-view{
+width:50px;
+height:100%;
+background-color:transparent;
+z-index:99;
+}
+
+.topright-outer-adjust{
+background-color:#0066CC;
+margin-left:47px;
+width:272px;
+height:45px;
+box-shadow:0px 0px 0px 1px white;
+}
+
+.topright-inner-label-adjust{
+margin-top:15px;
+margin-left:30px;
+height:30px;
+color:white;
+font-size-adjust:0.9;
+font-weight:bold;
+}
+
+.topright-hotel-profile-outer{
+margin-top:0px;
+}
+
+.topright-call-outer{
+margin-top:47px;
+}
+
+.topright-reservation-outer{
+margin-top:94px;
+}
+.topright-direction-outer{
+margin-top:141px;
+}
+.topright-gallery-outer{
+margin-top:188px;
+}
+.topright-promotion-outer{
+margin-top:235px;
+}
+.topright-attractions-outer{
+margin-top:282px;
+}
+}
